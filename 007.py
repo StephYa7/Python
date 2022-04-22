@@ -2,10 +2,7 @@
 
 
 x=1
-y=0
+y=1
 z=1
 
-
-
-print(!(x and y and z) == (!x or !y or !z))
-
+print(not(x and y and z) == (not x) or (not y) or (not z))
