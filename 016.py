@@ -1,19 +1,21 @@
 # Написать программу проверки, является ли строка палиндромом
 
-from cgitb import reset
 
-
-string = '124y yy421'
+string = '1234534321'
 lenght = len(string) -1
 min = 0
 
 
-while string[min] == string[lenght]:
-    if min < lenght:
-        min += 1
-        lenght -= 1
-   
-else : print('не')        
+while min < lenght:
+    if string[min] != string[lenght]:
+       quit(f'{string} Не палиндром')
+    min += 1
+    lenght -= 1
+
+
+
+print('Палиндром')        
+
 
         
    
@@ -22,4 +24,3 @@ else : print('не')
 
 
 
-print(string[8])
