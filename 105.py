@@ -9,13 +9,12 @@ for i in range(-n, n+1):
 
 print(list)
 
-summ = 0
+summ = 1
 path = 'file.txt'            # Загрузка
 data = open(path, 'r')
 
-for line in data:
-    for i in n:
-        summ += n[line]
+for l in data:
+    summ *= list[int(l)]
 data.close()
 
 
