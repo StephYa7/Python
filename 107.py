@@ -7,14 +7,13 @@ a = datetime.now()
 
 a = int(a.microsecond)
 
-print(a)
-
 max= int(input("Введите максимальное число рандома: "))
 
 if max < 11:
     a = str(a)
     b = a[-1]
     print(b)
+    exit()
 
 while a > max:
     if a % 3 == 0:
