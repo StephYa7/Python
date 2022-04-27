@@ -11,10 +11,10 @@ print(list)
 
 summ = 1
 path = 'file.txt'            # Загрузка
-data = open(path, 'r')
+data = open(path, 'r')       # Загрузка
 
-for l in data:
-    summ *= list[int(l)]
+for index in data:
+    summ *= list[int(index)]
 data.close()
 
 
