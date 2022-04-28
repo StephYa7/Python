@@ -22,16 +22,16 @@ import lec as l
 
 
 
-# list = []
-# for e in range(0,8):
-#     list.append(l.fib(e))
-# print(list)
+list = []
+for e in range(1,8):
+    list.append(l.fib(e))
+print(list)
 
-t= tuple(['red', 'green', 'blue'])
-red, green, blue = t
-red = 44
+# t= tuple(['red', 'green', 'blue'])
+# red, green, blue = t
+# red = 44
 
-print('r:{} g:{} b:{} '.format(red, green, blue))
+# print('r:{} g:{} b:{} '.format(red, green, blue))
 
 
 
