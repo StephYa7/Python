@@ -13,4 +13,6 @@ for i in list :
         max = q
 
 res = max - min 
-print(res)
+print(round(res,22)) #FUCK
+
+

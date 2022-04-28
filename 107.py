@@ -9,7 +9,7 @@ a = int(a.microsecond)
 
 max= int(input("Введите максимальное число рандома: "))
 
-if max < 11:
+if max < 10:
     a = str(a)
     b = a[-1]
     print(b)
@@ -25,3 +25,11 @@ while a > max:
     else : a = a/3
 
 print(int(a))
+
+# st = set()
+# for i in range(100):
+#     st.add(str(i))
+#     print(st)
+# for i in st:
+#     print(int(i))
+#     break

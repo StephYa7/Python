@@ -18,7 +18,22 @@
 # data.close()
 
 import lec as l
-print(l.f(1))
+# print(l.f(1))
+
+
+
+# list = []
+# for e in range(0,8):
+#     list.append(l.fib(e))
+# print(list)
+
+t= tuple(['red', 'green', 'blue'])
+red, green, blue = t
+red = 44
+
+print('r:{} g:{} b:{} '.format(red, green, blue))
+
+
 
 
 

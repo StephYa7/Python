@@ -12,7 +12,7 @@ list = [5, 6, 8, 22, '33r', 55, 'ww']
 
 # print(list)
 
-i = 100
+i = len(list)
 while i > 0:
 
     a = random.randint(0, len(list)-1)
