@@ -18,9 +18,7 @@ while t > 0:
     znak*=-1
 
 d = str(d)
-
 d=len(d)-2
-
 f = round(f,d)
 
 print(f)
