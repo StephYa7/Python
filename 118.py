@@ -21,5 +21,6 @@ d = str(d)
 d=len(d)-2
 f = round(f,d)
 
+
 print(f)
 
