@@ -3,16 +3,12 @@
 
 
 list = [1, 2, 3, 5, 1, 5, 3, 10]
-itog = [1]
-i = 0
 
 
-while i < len(list) -1:
-    for q in itog:
-        if list[i] == q:
-            i += 1
-        else:
-            itog.append(i)
-            i += 1
+print(set(list))
 
-print(itog)
+# itog = []
+
+# [itog.append(i) for i in list if i not in itog]
+
+# print(itog)
