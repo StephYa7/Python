@@ -2,6 +2,7 @@
 # Вставить и перезаписать.
 
 from posixpath import split
+import re
 
 path = '204.txt'            # Загрузка
 data = open(path, 'r')
@@ -15,4 +16,15 @@ for i in range(len(enter)-1):
         print(enter[i])
         enter.insert(i+1, int(enter[i])+1)
 
+
 print(enter)
+
+end = re.sub (",|]||'|","",str(enter))
+
+print(end)
+
+data = open ('test204.txt' , 'a')
+data.write(end)
+data.close
+
+
