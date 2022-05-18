@@ -19,6 +19,9 @@ data.close()
 
 
 
+
+
+
 list1 = enter[0]
 list2 = enter[1]
 list1 = re.split(r'\s+', re.sub(r'[*x^ + =]', ' ', list1).strip())
