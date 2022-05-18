@@ -15,6 +15,6 @@ res.append(str(list[len(list)-1]))
 print(list)
 print(' + '.join(res) + ' = 0')
 
-data = open ('202.txt' , 'w')
-data.write(' + '.join(res) + ' = 0')
+data = open ('202.txt' , 'a')
+data.write(' + '.join(res) + ' = 0\n')
 data.close
