@@ -1,17 +1,9 @@
 # Вы когда-нибудь играли в игру "Крестики-нолики"? Попробуйте создать её.
 count = 0
-a = '11'
-b = '12'
-c = '13'
-d = '21'
-e = '22'
-f = '23'
-g = '31'
-h = '32'
-i = '33'
+a = '11' ; b = '12'; c = '13'; d = '21'; e = '22'; f = '23'; g = '31'; h = '32'; i = '33'
 print('Введите координаты куда хотите поставить крестик или нолик: ')
 
-while not a == c == b or d == e == f or g == h == i or a == d == g or b == e == h or c == f == i or a == e == i or c == e == g:
+while not (a == c == b or d == e == f or g == h == i or a == d == g or b == e == h or c == f == i or a == e == i or c == e == g):
 
     print(f' {a}  |  {b}  |  {c} ')
     print('     |      |     ')
@@ -26,40 +18,48 @@ while not a == c == b or d == e == f or g == h == i or a == d == g or b == e == 
     if count % 2 == 0:
 
         if x == a:
-            a = ' x'
+            a = ' X'
         elif x == b:
-            b = ' x'
+            b = ' X'
         elif x == c:
-            c = ' x'
+            c = ' X'
         elif x == d:
-            d = ' x'
+            d = ' X'
         elif x == e:
-            e = ' x'
+            e = ' X'
         elif x == f:
-            f = ' x'
+            f = ' X'
         elif x == g:
-            g = ' x'
+            g = ' X'
         elif x == h:
-            h = ' x'
+            h = ' X'
         elif x == i:
-            i = ' x'
+            i = ' X'
     else:
         if x == a:
-            a = ' o'
+            a = ' O'
         elif x == b:
-            b = ' o'
+            b = ' O'
         elif x == c:
-            c = ' o'
+            c = ' O'
         elif x == d:
-            d = ' o'
+            d = ' O'
         elif x == e:
-            e = ' o'
+            e = ' O'
         elif x == f:
-            f = ' o'
+            f = ' O'
         elif x == g:
-            g = ' o'
+            g = ' O'
         elif x == h:
-            h = ' o'
+            h = ' O'
         elif x == i:
-            i = ' o'
-    count +=1
+            i = ' O'
+    count += 1
+
+    if count == 9:
+        print('Ниья')
+        break
+if count % 2 == 0:
+    print('O Победил')
+else:
+    print('X Победил')
