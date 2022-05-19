@@ -5,23 +5,17 @@
 import random
 
 
-print('Игра с конфетами: на столе 51 одна конфета, вы можете взять за раз от одной до пяти конфет, кто возьмет последнюю тот проиграл.')
+print('Игра с конфетами: на столе 51 одна конфета, вы можете взять за раз от одной до пяти конфет, кто возьмет последнюю тот выиграл.')
 
 player = 0
 sum = 51
-
-
 while sum > 0:
     if player % 2 != 0 and sum > 0:
-        if sum <= 5:
-            x = 6-sum
-        elif sum%5==0:
-            x=5
-        elif sum%5==1:
-            x = random(1,5)
+        if sum% 6==0:
+            random.randint(1,5)
         else:
-            x=sum%5-1
-        sum -=x
+            x = sum % 6 
+        sum -= x
     elif player % 2 == 0 and sum > 0:
         x = int(input('Введите число от 1 до 5: '))
         sum = sum - x
