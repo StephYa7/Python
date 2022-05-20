@@ -3,7 +3,7 @@
 # 3*x^5 + 3*x^4 + 9*x^3 + 2*x^1 + 10 = 0
 import re
 
-path = '202.txt'            
+path = '202.txt'
 data = open(path, 'r')
 
 enter = []
@@ -14,6 +14,9 @@ data.close()
 
 list1 = enter[0]
 list2 = enter[1]
+
+
+
 
 list1 = re.split(r'\s+', re.sub(r'[*x^+=]', ' ', list1).strip())
 list2 = re.split(r'\s+', re.sub(r'[*x^+=]', ' ', list2).strip())

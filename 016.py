@@ -16,8 +16,7 @@ while min < lenght:
 
 print('Палиндром')        
 
-
-        
+ 
    
     
     
