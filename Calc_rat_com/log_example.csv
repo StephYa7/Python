@@ -1,0 +1,23 @@
+¬водимый пример: <function example_input at 0x000001FDDC78A200>  итог: <function total_out at 0x000001FDDC78A320>
+¬водимый пример: <function example_input at 0x000001C339A2A200>  итог: <function total_out at 0x000001C339A2A320>
+¬водимый пример: <function example_input at 0x000001F66F18A200>  итог: <function total_out at 0x000001F66F18A320>
+¬водимый пример: <function example_input at 0x000001F0C684A200>  итог: <function total_out at 0x000001F0C684A320>
+¬водимый пример: <function example_input at 0x000002A8BAFAA200>  итог: <function total_out at 0x000002A8BAFAA320>
+¬водимый пример: <function example_input at 0x0000014DFF78A200>  итог: <function total_out at 0x0000014DFF78A320>
+¬водимый пример: <function example_input at 0x000001DBD058A200>  итог: <function total_out at 0x000001DBD058A320>
+¬водимый пример: <function example_input at 0x000001607624A290>  итог: <function total_out at 0x000001607624A3B0>
+¬водимый пример: <function example_input at 0x000001A28D4CA200>  итог: <function total_out at 0x000001A28D4CA320>
+¬водимый пример: <function example_input at 0x000001A3DDB8A200>  итог: <function total_out at 0x000001A3DDB8A320>
+¬водимый пример: <function example_input at 0x00000235A0F8A200>  итог: <function total_out at 0x00000235A0F8A320>
+¬водимый пример: 5+5  итог: None
+¬водимый пример: 5+5  итог: 10
+¬водимый пример: 5+5  итог: 10
+¬водимый пример: 5+5  итог: 10
+¬водимый пример: 5+5  итог: 10
+¬водимый пример: 56+5  итог: 61
+¬водимый пример: 6+6  итог: 12
+¬водимый пример: 5+5  итог: <function com at 0x0000026EC724A3B0>
+¬водимый пример: 6666+66876  итог: <function com at 0x00000161C018A3B0>
+¬водимый пример: 67+68  итог: 135
+¬ 14:09  ¬водили пример: 55+66  итог: 121
+05/23/22:14:11  ¬водили пример: 789+987  итог: 1776
