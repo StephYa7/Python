@@ -3,20 +3,6 @@
 #    [5, 2, 3, 4, 6, 1, 7] => [2, 3, 4, 6, 7]
 #  Порядок элементов менять нельзя
 
-
-
-
-# start = [1, 5, 2, 3, 4, 6, 1, 7]
-# bestLen = 0
-# interim = []
-# end = []
-# listmin =[]
-# indexF = 0
-# indexS = 0
-
-# def rek (rangeleft,rangeright)
-
-
     
 
 
