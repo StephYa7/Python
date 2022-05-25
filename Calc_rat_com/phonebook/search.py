@@ -31,7 +31,4 @@ def search(line):
                 if i.lower() == name.lower():
                     print(line)
     data.close()
-
-    
-
-print(search(4))
+print(search(2))
